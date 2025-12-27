@@ -52,7 +52,7 @@ public class TestBase {
                     "enableVNC", true,
                     "enableVideo", true,
                     "enableLog", true,
-                    "sessionTimeout", "5m"
+                    "sessionTimeout", "10m"
             ));
 
             Configuration.browserCapabilities = capabilities;

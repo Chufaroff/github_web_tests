@@ -34,7 +34,7 @@ public interface ConfigProperties extends Config {
     String getBrowserSize();
 
     @Key("timeout")
-    @DefaultValue("5000")
+    @DefaultValue("10000")
     Long getTimeout();
 
     @Key("pageLoadStrategy")
