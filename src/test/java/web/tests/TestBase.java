@@ -64,12 +64,6 @@ public class TestBase {
         new MainPage().openPage();
     }
 
-    @BeforeEach
-    void addListener() {
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-    }
-
-
     @AfterEach
     void addAttachments() {
         Attachments.screenshotAs("Last screenshot");
