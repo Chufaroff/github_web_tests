@@ -11,7 +11,7 @@ public class SearchPage {
 
     @Step("Ввести текст для поиска: {query}")
     public SearchPage searchFor(String query) {
-        searchQueryField.setValue(query);
+        searchQueryField.setValue(query).pressEnter();
         return this;
     }
 
