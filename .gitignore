@@ -28,6 +28,3 @@ build/
 /.allure
 */allure-results
 /allure-results
-
-### Properties ###
-/app.properties
