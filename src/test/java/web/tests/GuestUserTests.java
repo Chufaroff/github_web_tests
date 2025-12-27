@@ -105,7 +105,7 @@ public class GuestUserTests extends TestBase {
                 searchPage.clickSelenideSearchResult()
         );
         step("Проверить название репозитория", () ->
-                repositoryPage.checkRepositoryName(REPO_NAME)
+                repositoryPage.checkRepoContainerHeader(REPO_NAME)
         );
     }
 }
