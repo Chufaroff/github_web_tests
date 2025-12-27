@@ -65,9 +65,19 @@ tasks.withType(Test) {
     }
 }
 
+task local_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("local")
+    }
+
+    doFirst {
+        delete 'build/allure-results'
+    }
+}
+
 task remote_test(type: Test) {
     useJUnitPlatform {
-        includeTags( "remote")
+        includeTags("remote")
     }
 
     doFirst {

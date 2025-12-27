@@ -9,13 +9,12 @@ import web.pages.DashboardPage;
 import web.pages.LoginPage;
 import web.pages.MainPage;
 
-import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 @Owner("Chufarov Bogdan")
 @Feature("GitHub")
 @Story("Авторизация")
-@Tags({@Tag("Auth"), @Tag("WEB"), @Tag("remote")})
+@Tags({@Tag("Auth"), @Tag("WEB"), @Tag("local")})
 @DisplayName("Тестирование авторизации в личном кабинете")
 public class LoginTests extends TestBase {
 

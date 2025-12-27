@@ -12,7 +12,7 @@ import static io.qameta.allure.Allure.step;
 @Owner("Chufarov Bogdan")
 @Feature("GitHub")
 @Story("Навигация")
-@Tags({@Tag("Auth"), @Tag("WEB"), @Tag("remote")})
+@Tags({@Tag("Auth"), @Tag("WEB"), @Tag("local")})
 @DisplayName("Тестирование навигации авторизированного пользователя")
 public class AuthorizedUserNavigationTests extends TestBase {
 
